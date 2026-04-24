@@ -1,0 +1,52 @@
+{
+  "manifest_version": 3,
+  "name": "linkding for Safari",
+  "version": "0.1.0",
+  "description": "Save and search bookmarks in a self-hosted linkding instance.",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "action": {
+    "default_title": "Save to linkding",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html",
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "omnibox": {
+    "keyword": "ld"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+D"
+      },
+      "description": "Save to linkding"
+    },
+    "search-linkding": {
+      "suggested_key": {
+        "default": "Alt+Shift+F"
+      },
+      "description": "Search linkding"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+function show(enabled, useSettingsInsteadOfPreferences) {
+    if (useSettingsInsteadOfPreferences) {
+        document.getElementsByClassName("state-on")[0].innerText = "linkding for Safari’s extension is currently on.";
+        document.getElementsByClassName("state-off")[0].innerText = "linkding for Safari’s extension is currently off. Turn it on in Safari Settings.";
+        document.getElementsByClassName("state-unknown")[0].innerText = "You can turn on linkding for Safari’s extension in Safari Settings.";
+    }
+
+    if (typeof enabled === "boolean") {
+        document.body.classList.toggle(`state-on`, enabled);
+        document.body.classList.toggle(`state-off`, !enabled);
+    } else {
+        document.body.classList.remove(`state-on`);
+        document.body.classList.remove(`state-off`);
+    }
+}
+
+function openPreferences() {
+    webkit.messageHandlers.controller.postMessage("open-preferences");
+}
+
+document.querySelector("button.open-preferences").addEventListener("click", openPreferences);

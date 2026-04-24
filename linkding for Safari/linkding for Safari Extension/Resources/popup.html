@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Save to linkding</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="popup">
+    <header>
+      <img src="icons/icon.svg" alt="" width="28" height="28">
+      <div>
+        <h1>linkding</h1>
+        <p id="status">Loading current tab...</p>
+      </div>
+    </header>
+
+    <main>
+      <section id="setup" class="notice hidden">
+        <strong>Connect your server</strong>
+        <span>Add your linkding URL and API token before saving bookmarks.</span>
+        <button id="openOptions" type="button">Open Settings</button>
+      </section>
+
+      <section id="saving" class="notice hidden">
+        <strong>Saving bookmark...</strong>
+        <span>This page is being saved to linkding.</span>
+      </section>
+
+      <section id="saved" class="notice hidden">
+        <strong>Saved to linkding</strong>
+        <span id="savedTitle">The current page was saved.</span>
+        <div class="actions">
+          <button id="editBookmark" type="button">Edit Bookmark</button>
+          <button id="closePopup" class="secondary" type="button">Close</button>
+        </div>
+      </section>
+
+      <section id="error" class="notice hidden">
+        <strong>Could not save</strong>
+        <span id="errorMessage"></span>
+        <div class="actions">
+          <button id="retrySave" type="button">Try Again</button>
+          <button id="openOptionsFromError" class="secondary" type="button">Settings</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

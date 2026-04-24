@@ -1,0 +1,193 @@
+:root {
+  color-scheme: light dark;
+  --accent: #5856e0;
+  --accent-strong: #4543c7;
+  --accent-soft: #eeeeff;
+  --accent-border: #c7c6f6;
+  --danger: #b42318;
+  --success: #5856e0;
+  --warning: #9a6700;
+  --text: #1f2328;
+  --muted: #667085;
+  --border: #d0d5dd;
+  --surface: #ffffff;
+  --surface-subtle: #f6f8fa;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent: #8d8bff;
+    --accent-strong: #aaa8ff;
+    --accent-soft: #252449;
+    --accent-border: #4f4d91;
+    --danger: #ff8a80;
+    --success: #aaa8ff;
+    --warning: #f4bf50;
+    --text: #f2f4f7;
+    --muted: #a7b0be;
+    --border: #344054;
+    --surface: #101828;
+    --surface-subtle: #182230;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--surface);
+  color: var(--text);
+  font: 14px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.popup {
+  width: 360px;
+}
+
+.options {
+  min-width: 560px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+h1 {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.2;
+}
+
+p {
+  margin: 4px 0 0;
+  color: var(--muted);
+}
+
+p[data-tone="success"] {
+  color: var(--success);
+}
+
+p[data-tone="warning"] {
+  color: var(--warning);
+}
+
+p[data-tone="error"] {
+  color: var(--danger);
+}
+
+main {
+  padding: 16px;
+}
+
+.settings {
+  max-width: 620px;
+}
+
+form {
+  display: grid;
+  gap: 12px;
+}
+
+label {
+  display: grid;
+  gap: 6px;
+  font-weight: 600;
+}
+
+input,
+textarea {
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 9px 10px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.checks {
+  display: grid;
+  gap: 8px;
+  padding: 4px 0;
+}
+
+.checks label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.checks input {
+  width: auto;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+button {
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  padding: 9px 12px;
+  background: var(--accent);
+  color: #ffffff;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--accent-strong);
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+button.secondary {
+  background: transparent;
+  color: var(--accent);
+}
+
+button.secondary:hover {
+  background: var(--accent-soft);
+}
+
+.notice {
+  display: grid;
+  gap: 8px;
+  border: 1px solid var(--accent-border);
+  border-radius: 8px;
+  padding: 12px;
+  background: var(--surface-subtle);
+}
+
+.notice span {
+  color: var(--muted);
+}
+
+.hidden {
+  display: none;
+}

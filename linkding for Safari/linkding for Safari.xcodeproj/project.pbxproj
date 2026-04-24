@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF9F3AC22F9BC6B5000BBEBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9F3AC12F9BC6B5000BBEBD /* AppDelegate.swift */; };
+		BF9F3AC62F9BC6B5000BBEBD /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = BF9F3AC42F9BC6B5000BBEBD /* Main.html */; };
+		BF9F3AC82F9BC6B5000BBEBD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF9F3AC72F9BC6B5000BBEBD /* Icon.png */; };
+		BF9F3ACA2F9BC6B5000BBEBD /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = BF9F3AC92F9BC6B5000BBEBD /* Style.css */; };
+		BF9F3ACC2F9BC6B5000BBEBD /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = BF9F3ACB2F9BC6B5000BBEBD /* Script.js */; };
+		BF9F3ACE2F9BC6B5000BBEBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9F3ACD2F9BC6B5000BBEBD /* ViewController.swift */; };
+		BF9F3AD12F9BC6B5000BBEBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9F3ACF2F9BC6B5000BBEBD /* Main.storyboard */; };
+		BF9F3AD32F9BC6B6000BBEBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF9F3AD22F9BC6B6000BBEBD /* Assets.xcassets */; };
+		BF9F3ADA2F9BC6B6000BBEBD /* linkding for Safari Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BF9F3AD92F9BC6B6000BBEBD /* linkding for Safari Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BF9F3ADF2F9BC6B6000BBEBD /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9F3ADE2F9BC6B6000BBEBD /* SafariWebExtensionHandler.swift */; };
+		BF9F3AF32F9BC6B7000BBEBD /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = BF9F3AEB2F9BC6B7000BBEBD /* popup.js */; };
+		BF9F3AF42F9BC6B7000BBEBD /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = BF9F3AEC2F9BC6B7000BBEBD /* styles.css */; };
+		BF9F3AF52F9BC6B7000BBEBD /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = BF9F3AED2F9BC6B7000BBEBD /* background.js */; };
+		BF9F3AF62F9BC6B7000BBEBD /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = BF9F3AEE2F9BC6B7000BBEBD /* popup.html */; };
+		BF9F3AF72F9BC6B7000BBEBD /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = BF9F3AEF2F9BC6B7000BBEBD /* options.js */; };
+		BF9F3AF82F9BC6B7000BBEBD /* icons in Resources */ = {isa = PBXBuildFile; fileRef = BF9F3AF02F9BC6B7000BBEBD /* icons */; };
+		BF9F3AF92F9BC6B7000BBEBD /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = BF9F3AF12F9BC6B7000BBEBD /* manifest.json */; };
+		BF9F3AFA2F9BC6B7000BBEBD /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = BF9F3AF22F9BC6B7000BBEBD /* options.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF9F3ADB2F9BC6B6000BBEBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF9F3AB62F9BC6B5000BBEBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF9F3AD82F9BC6B6000BBEBD;
+			remoteInfo = "linkding for Safari Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF9F3AE62F9BC6B6000BBEBD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BF9F3ADA2F9BC6B6000BBEBD /* linkding for Safari Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BF9F3ABE2F9BC6B5000BBEBD /* linkding for Safari.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "linkding for Safari.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9F3AC12F9BC6B5000BBEBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF9F3AC52F9BC6B5000BBEBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		BF9F3AC72F9BC6B5000BBEBD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		BF9F3AC92F9BC6B5000BBEBD /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		BF9F3ACB2F9BC6B5000BBEBD /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		BF9F3ACD2F9BC6B5000BBEBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF9F3AD02F9BC6B5000BBEBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF9F3AD22F9BC6B6000BBEBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF9F3AD42F9BC6B6000BBEBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9F3AD92F9BC6B6000BBEBD /* linkding for Safari Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "linkding for Safari Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9F3ADE2F9BC6B6000BBEBD /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		BF9F3AE02F9BC6B6000BBEBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF9F3AEB2F9BC6B7000BBEBD /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = Resources/popup.js; sourceTree = "<group>"; };
+		BF9F3AEC2F9BC6B7000BBEBD /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = styles.css; path = Resources/styles.css; sourceTree = "<group>"; };
+		BF9F3AED2F9BC6B7000BBEBD /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
+		BF9F3AEE2F9BC6B7000BBEBD /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = popup.html; path = Resources/popup.html; sourceTree = "<group>"; };
+		BF9F3AEF2F9BC6B7000BBEBD /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = options.js; path = Resources/options.js; sourceTree = "<group>"; };
+		BF9F3AF02F9BC6B7000BBEBD /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = Resources/icons; sourceTree = "<group>"; };
+		BF9F3AF12F9BC6B7000BBEBD /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		BF9F3AF22F9BC6B7000BBEBD /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = Resources/options.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF9F3ABB2F9BC6B5000BBEBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9F3AD62F9BC6B6000BBEBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF9F3AB52F9BC6B5000BBEBD = {
+			isa = PBXGroup;
+			children = (
+				BF9F3AC02F9BC6B5000BBEBD /* linkding for Safari */,
+				BF9F3ADD2F9BC6B6000BBEBD /* linkding for Safari Extension */,
+				BF9F3ABF2F9BC6B5000BBEBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF9F3ABF2F9BC6B5000BBEBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF9F3ABE2F9BC6B5000BBEBD /* linkding for Safari.app */,
+				BF9F3AD92F9BC6B6000BBEBD /* linkding for Safari Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF9F3AC02F9BC6B5000BBEBD /* linkding for Safari */ = {
+			isa = PBXGroup;
+			children = (
+				BF9F3AC12F9BC6B5000BBEBD /* AppDelegate.swift */,
+				BF9F3ACD2F9BC6B5000BBEBD /* ViewController.swift */,
+				BF9F3ACF2F9BC6B5000BBEBD /* Main.storyboard */,
+				BF9F3AD22F9BC6B6000BBEBD /* Assets.xcassets */,
+				BF9F3AD42F9BC6B6000BBEBD /* Info.plist */,
+				BF9F3AC32F9BC6B5000BBEBD /* Resources */,
+			);
+			path = "linkding for Safari";
+			sourceTree = "<group>";
+		};
+		BF9F3AC32F9BC6B5000BBEBD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF9F3AC42F9BC6B5000BBEBD /* Main.html */,
+				BF9F3AC72F9BC6B5000BBEBD /* Icon.png */,
+				BF9F3AC92F9BC6B5000BBEBD /* Style.css */,
+				BF9F3ACB2F9BC6B5000BBEBD /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BF9F3ADD2F9BC6B6000BBEBD /* linkding for Safari Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BF9F3AEA2F9BC6B7000BBEBD /* Resources */,
+				BF9F3ADE2F9BC6B6000BBEBD /* SafariWebExtensionHandler.swift */,
+				BF9F3AE02F9BC6B6000BBEBD /* Info.plist */,
+			);
+			path = "linkding for Safari Extension";
+			sourceTree = "<group>";
+		};
+		BF9F3AEA2F9BC6B7000BBEBD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BF9F3AEB2F9BC6B7000BBEBD /* popup.js */,
+				BF9F3AEC2F9BC6B7000BBEBD /* styles.css */,
+				BF9F3AED2F9BC6B7000BBEBD /* background.js */,
+				BF9F3AEE2F9BC6B7000BBEBD /* popup.html */,
+				BF9F3AEF2F9BC6B7000BBEBD /* options.js */,
+				BF9F3AF02F9BC6B7000BBEBD /* icons */,
+				BF9F3AF12F9BC6B7000BBEBD /* manifest.json */,
+				BF9F3AF22F9BC6B7000BBEBD /* options.html */,
+			);
+			name = Resources;
+			path = "linkding for Safari Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF9F3ABD2F9BC6B5000BBEBD /* linkding for Safari */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9F3AE72F9BC6B6000BBEBD /* Build configuration list for PBXNativeTarget "linkding for Safari" */;
+			buildPhases = (
+				BF9F3ABA2F9BC6B5000BBEBD /* Sources */,
+				BF9F3ABB2F9BC6B5000BBEBD /* Frameworks */,
+				BF9F3ABC2F9BC6B5000BBEBD /* Resources */,
+				BF9F3AE62F9BC6B6000BBEBD /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF9F3ADC2F9BC6B6000BBEBD /* PBXTargetDependency */,
+			);
+			name = "linkding for Safari";
+			packageProductDependencies = (
+			);
+			productName = "linkding for Safari";
+			productReference = BF9F3ABE2F9BC6B5000BBEBD /* linkding for Safari.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF9F3AD82F9BC6B6000BBEBD /* linkding for Safari Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9F3AE32F9BC6B6000BBEBD /* Build configuration list for PBXNativeTarget "linkding for Safari Extension" */;
+			buildPhases = (
+				BF9F3AD52F9BC6B6000BBEBD /* Sources */,
+				BF9F3AD62F9BC6B6000BBEBD /* Frameworks */,
+				BF9F3AD72F9BC6B6000BBEBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "linkding for Safari Extension";
+			packageProductDependencies = (
+			);
+			productName = "linkding for Safari Extension";
+			productReference = BF9F3AD92F9BC6B6000BBEBD /* linkding for Safari Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF9F3AB62F9BC6B5000BBEBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					BF9F3ABD2F9BC6B5000BBEBD = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					BF9F3AD82F9BC6B6000BBEBD = {
+						CreatedOnToolsVersion = 26.3;
+					};
+				};
+			};
+			buildConfigurationList = BF9F3AB92F9BC6B5000BBEBD /* Build configuration list for PBXProject "linkding for Safari" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF9F3AB52F9BC6B5000BBEBD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BF9F3ABF2F9BC6B5000BBEBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF9F3ABD2F9BC6B5000BBEBD /* linkding for Safari */,
+				BF9F3AD82F9BC6B6000BBEBD /* linkding for Safari Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF9F3ABC2F9BC6B5000BBEBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9F3AC82F9BC6B5000BBEBD /* Icon.png in Resources */,
+				BF9F3AD12F9BC6B5000BBEBD /* Main.storyboard in Resources */,
+				BF9F3ACC2F9BC6B5000BBEBD /* Script.js in Resources */,
+				BF9F3AC62F9BC6B5000BBEBD /* Main.html in Resources */,
+				BF9F3AD32F9BC6B6000BBEBD /* Assets.xcassets in Resources */,
+				BF9F3ACA2F9BC6B5000BBEBD /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9F3AD72F9BC6B6000BBEBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9F3AF32F9BC6B7000BBEBD /* popup.js in Resources */,
+				BF9F3AF92F9BC6B7000BBEBD /* manifest.json in Resources */,
+				BF9F3AF62F9BC6B7000BBEBD /* popup.html in Resources */,
+				BF9F3AFA2F9BC6B7000BBEBD /* options.html in Resources */,
+				BF9F3AF52F9BC6B7000BBEBD /* background.js in Resources */,
+				BF9F3AF82F9BC6B7000BBEBD /* icons in Resources */,
+				BF9F3AF42F9BC6B7000BBEBD /* styles.css in Resources */,
+				BF9F3AF72F9BC6B7000BBEBD /* options.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF9F3ABA2F9BC6B5000BBEBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9F3ACE2F9BC6B5000BBEBD /* ViewController.swift in Sources */,
+				BF9F3AC22F9BC6B5000BBEBD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9F3AD52F9BC6B6000BBEBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9F3ADF2F9BC6B6000BBEBD /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF9F3ADC2F9BC6B6000BBEBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF9F3AD82F9BC6B6000BBEBD /* linkding for Safari Extension */;
+			targetProxy = BF9F3ADB2F9BC6B6000BBEBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF9F3AC42F9BC6B5000BBEBD /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF9F3AC52F9BC6B5000BBEBD /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		BF9F3ACF2F9BC6B5000BBEBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF9F3AD02F9BC6B5000BBEBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF9F3AE12F9BC6B6000BBEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF9F3AE22F9BC6B6000BBEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BF9F3AE42F9BC6B6000BBEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "linkding for Safari Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "linkding for Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.phun.linkding-safari.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BF9F3AE52F9BC6B6000BBEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "linkding for Safari Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "linkding for Safari Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.phun.linkding-safari.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BF9F3AE82F9BC6B6000BBEBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "linkding for Safari/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Linkding for Safari";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.phun.linkding-safari";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BF9F3AE92F9BC6B6000BBEBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "linkding for Safari/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Linkding for Safari";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.5;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "me.phun.linkding-safari";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF9F3AB92F9BC6B5000BBEBD /* Build configuration list for PBXProject "linkding for Safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9F3AE12F9BC6B6000BBEBD /* Debug */,
+				BF9F3AE22F9BC6B6000BBEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF9F3AE32F9BC6B6000BBEBD /* Build configuration list for PBXNativeTarget "linkding for Safari Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9F3AE42F9BC6B6000BBEBD /* Debug */,
+				BF9F3AE52F9BC6B6000BBEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF9F3AE72F9BC6B6000BBEBD /* Build configuration list for PBXNativeTarget "linkding for Safari" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9F3AE82F9BC6B6000BBEBD /* Debug */,
+				BF9F3AE92F9BC6B6000BBEBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF9F3AB62F9BC6B5000BBEBD /* Project object */;
+}

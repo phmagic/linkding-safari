@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>linkding Settings</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="options">
+    <main class="settings">
+      <header>
+        <img src="icons/icon.svg" alt="" width="36" height="36">
+        <div>
+          <h1>linkding Settings</h1>
+          <p id="status">Connect to your self-hosted linkding server.</p>
+        </div>
+      </header>
+
+      <form id="settingsForm">
+        <label>
+          Server URL
+          <input id="baseUrl" type="url" placeholder="https://links.example.com" required>
+        </label>
+        <label>
+          API Token
+          <input id="token" type="password" autocomplete="off" required>
+        </label>
+        <label>
+          Default Tags
+          <input id="defaultTags" type="text" placeholder="inbox safari">
+        </label>
+
+        <div class="checks">
+          <label><input id="markUnread" type="checkbox"> Mark new bookmarks unread</label>
+          <label><input id="markArchived" type="checkbox"> Save directly to archive</label>
+          <label><input id="shared" type="checkbox"> Share new bookmarks</label>
+        </div>
+
+        <div class="actions">
+          <button id="save" type="submit">Save Settings</button>
+          <button id="test" class="secondary" type="button">Test Connection</button>
+        </div>
+      </form>
+    </main>
+
+    <script src="options.js"></script>
+  </body>
+</html>
