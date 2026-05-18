@@ -3,6 +3,9 @@
 A Safari Web Extension for saving and searching bookmarks in a self-hosted
 [linkding](https://github.com/sissbruecker/linkding) instance.
 
+## Download
+You can download the extension for free from the [App Store](https://apps.apple.com/us/app/linkding-for-safari/id6763596375?mt=12).
+
 This project is built for the open source
 [linkding](https://github.com/sissbruecker/linkding) bookmark manager and uses
 linkding's upstream logo assets from
